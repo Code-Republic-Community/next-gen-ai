@@ -1,4 +1,10 @@
-''' Suppose we have a `Polygon` class that has a vertices property that needs to be defined as a sequence of `Point2D` instances. So here, not only do we want the `vertices` attribute of our `Polygon` to be an iterable of some kind, we also want the elements to all be instances of the `Point2D` class. In turn we'll also want to make sure that coordinates for `Point2D` are non-negative integer values (as might be expected in computer screen coordinates): '''
+''' Suppose we have a `Polygon` class that has a vertices property that needs to be defined as a sequence of 
+
+`Point2D` instances. So here, not only do we want the `vertices` attribute of our `Polygon` to be an iterable of some kind, 
+
+we also want the elements to all be instances of the `Point2D` class. In turn we'll also want to make sure that coordinates for 
+
+`Point2D` are non-negative integer values (as might be expected in computer screen coordinates): '''
 
 
 class Int:
